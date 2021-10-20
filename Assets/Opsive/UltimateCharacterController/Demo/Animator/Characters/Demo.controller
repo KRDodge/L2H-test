@@ -98230,7 +98230,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: Slot0ItemStateIndex
-    m_EventTreshold: 2
+    m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102301585616457484}
   m_Solo: 0
@@ -108864,7 +108864,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 6
     m_ConditionEvent: MovementSetID
-    m_EventTreshold: 0
+    m_EventTreshold: 99
   - m_ConditionMode: 6
     m_ConditionEvent: AbilityIndex
     m_EventTreshold: 0
