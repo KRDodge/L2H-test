@@ -1,42 +1,35 @@
-﻿/// ---------------------------------------------
-/// Ultimate Character Controller
-/// Copyright (c) Opsive. All Rights Reserved.
-/// https://www.opsive.com
-/// ---------------------------------------------
-
 namespace Opsive.UltimateCharacterController.Demo.Objects
 {
+
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
     using Opsive.Shared.Game;
     using Opsive.UltimateCharacterController.Character;
     using Opsive.UltimateCharacterController.Game;
-#if ULTIMATE_CHARACTER_CONTROLLER_MULTIPLAYER
-    using Opsive.UltimateCharacterController.Networking;
-    using Opsive.UltimateCharacterController.Networking.Game;
-#endif
     using Opsive.UltimateCharacterController.Objects;
     using Opsive.UltimateCharacterController.SurfaceSystem;
     using Opsive.UltimateCharacterController.Traits;
     using Opsive.UltimateCharacterController.Utility;
-    using UnityEngine;
 
-    /// <summary>
-    /// A simple turret which will fire a projectile towards the character. This turret is setup for the demo scene and will likely require modifications if used in other areas.
-    /// </summary>
-    public class Turret : MonoBehaviour
+
+    public class FollowPlayer : MonoBehaviour
     {
-        [Tooltip("The object that rotates on the turret.")]
-        [SerializeField] protected Transform m_TurretHead;
-        [Tooltip("The speed at which the head rotates.")]
+        [Tooltip("rotation speed")]
         [SerializeField] protected float m_RotationSpeed = 5;
-        [Tooltip("Is head in oposite direction")]
-        [SerializeField] protected bool m_IsOposite = false;
+        [Tooltip("movementSpeed")]
+        [SerializeField] protected float m_MoveSpeed = 2;
 
         [Tooltip("The location that the projectile should be fired.")]
         [SerializeField] protected Transform m_FireLocation;
-        [Tooltip("The distance in which the turret can start firing.")]
-        [SerializeField] protected float m_FireRange = 10;
+        [Tooltip("The distance in which the enemy Attacks.")]
+        [SerializeField] protected float m_AttackRange = 7;
+        [Tooltip("The distance in which the enemy Follows.")]
+        [SerializeField] protected float m_MaxFollowRange = 3;
         [Tooltip("The delay until the turret will fire again.")]
         [SerializeField] protected float m_FireDelay = 0.5f;
+        [Tooltip("Is head in oposite direction")]
+        [SerializeField] protected bool m_IsOposite = false;
 
         [Tooltip("The projectile that is fired.")]
         [SerializeField] protected GameObject m_Projectile;
@@ -72,89 +65,72 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         private Health m_Health;
         private float m_LastFireTime;
 
-        /// <summary>
-        /// Initialize the default values.
-        /// </summary>
-        private void Awake()
-        {
+		private void Awake()
+		{
             m_GameObject = gameObject;
             m_Transform = transform;
             m_AudioSource = GetComponent<AudioSource>();
 #if ULTIMATE_CHARACTER_CONTROLLER_MULTIPLAYER
             m_NetworkInfo = GetComponent<INetworkInfo>();
 #endif
-
-            // A turret head is required.
-            if (m_TurretHead == null) {
-                m_TurretHead = m_Transform;
-            }
         }
 
-#if ULTIMATE_CHARACTER_CONTROLLER_MULTIPLAYER
-        /// <summary>
-        /// Determine if the object should be enabled on the network.
-        /// </summary>
-        private void Start()
-        {
-            if (m_NetworkInfo != null && !m_NetworkInfo.IsLocalPlayer()) {
-                enabled = false;
-            }
-        }
-#endif
-
-        /// <summary>
-        /// The turret has been enabled.
-        /// </summary>
         private void OnEnable()
         {
             m_LastFireTime = Time.time;
         }
 
-        /// <summary>
-        /// Rotates the turret head and attacks if the character is within range.
-        /// </summary>
-        private void Update()
+        // Start is called before the first frame update
+        void Start()
         {
-            if (m_Target == null) {
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (m_Target == null)
+            {
                 return;
             }
 
-            RotateTowardsTarget();
+            MoveTowardsTarget();
             CheckForAttack();
         }
 
-        /// <summary>
-        /// Keep facing the target so the turret can fire at any time.
-        /// </summary>
-        public void RotateTowardsTarget()
+        public void MoveTowardsTarget()
         {
-            if(m_IsOposite == true)
+            var targetRotation = Quaternion.Euler(0,0,0);
+            if (m_IsOposite == true)
             {
-                var targetRotation = Quaternion.Euler(0, Quaternion.LookRotation(m_Target.position - m_TurretHead.position).eulerAngles.y, 0);
-                m_TurretHead.rotation = Quaternion.Slerp(m_TurretHead.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
+                targetRotation = Quaternion.Euler(0, Quaternion.LookRotation(m_Target.position - m_Transform.position).eulerAngles.y, 0);
+                m_Transform.rotation = Quaternion.Slerp(m_Transform.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
             }
-            else{
-                var targetRotation = Quaternion.Euler(0, Quaternion.LookRotation(m_TurretHead.position - m_Target.position).eulerAngles.y, 0);
-                m_TurretHead.rotation = Quaternion.Slerp(m_TurretHead.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
+            else
+            {
+                targetRotation = Quaternion.Euler(0, Quaternion.LookRotation(m_Transform.position - m_Target.position).eulerAngles.y, 0);
             }
-            
+
+            m_Transform.rotation = Quaternion.Slerp(m_Transform.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
+
+
+            if (Vector3.Distance(m_Transform.position, m_Target.position) > m_MaxFollowRange)
+            {
+                Vector3 followPostion = new Vector3(m_Target.position.x, transform.position.y, m_Target.position.z);
+                m_Transform.position = Vector3.MoveTowards(transform.position, followPostion, m_MoveSpeed * Time.deltaTime);
+            }
         }
 
-        /// <summary>
-        /// Determine if the turret can attack.
-        /// </summary>
         public void CheckForAttack()
         {
             // The turret can attack if it hasn't fired recently and the target is in front of the turret.
-            if (m_LastFireTime + m_FireDelay < Time.time && (m_Transform.position - m_Target.position).magnitude < m_FireRange && (m_Health == null || m_Health.Value > 0)) {
-                Fire();
+            if (m_LastFireTime + m_FireDelay < Time.time && (m_Transform.position - m_Target.position).magnitude < m_AttackRange && (m_Health == null || m_Health.Value > 0))
+            {
+                Attack();
             }
         }
 
-        /// <summary>
-        /// Does the actual fire.
-        /// </summary>
-        public void Fire()
+        public void Attack()
         {
             m_LastFireTime = Time.time;
 
@@ -169,30 +145,30 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
 #endif
 
             // Spawn a muzzle flash.
-            if (m_MuzzleFlash) {
+            if (m_MuzzleFlash)
+            {
                 var muzzleFlash = ObjectPoolBase.Instantiate(m_MuzzleFlash, m_MuzzleFlashLocation.position, m_MuzzleFlashLocation.rotation, m_Transform).GetCachedComponent<MuzzleFlash>();
                 muzzleFlash.Show(null, 0, true, null);
             }
 
             // Play a firing sound.
-            if (m_FireAudioClip != null) {
+            if (m_FireAudioClip != null)
+            {
                 m_AudioSource.clip = m_FireAudioClip;
                 m_AudioSource.Play();
             }
         }
 
-        /// <summary>
-        /// An object has entered the trigger.
-        /// </summary>
-        /// <param name="other">The object that entered the trigger.</param>
         private void OnTriggerEnter(Collider other)
         {
-            if (m_Target != null || !MathUtility.InLayerMask(other.gameObject.layer, 1 << LayerManager.Character)) {
+            if (m_Target != null || !MathUtility.InLayerMask(other.gameObject.layer, 1 << LayerManager.Character))
+            {
                 return;
             }
 
             var characterLocomotion = other.GetComponentInParent<UltimateCharacterLocomotion>();
-            if (characterLocomotion == null) {
+            if (characterLocomotion == null)
+            {
                 return;
             }
 
@@ -200,17 +176,15 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
             m_Health = characterLocomotion.GetComponent<Health>();
         }
 
-        /// <summary>
-        /// An object has exited the trigger.
-        /// </summary>
-        /// <param name="other">The collider that exited the trigger.</param>
         private void OnTriggerExit(Collider other)
         {
-            if (other.gameObject != m_Target.gameObject) {
+            if (other.gameObject != m_Target.gameObject)
+            {
                 return;
             }
 
             m_Target = null;
         }
+
     }
 }
