@@ -23,9 +23,9 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         [Tooltip("The location that the projectile should be fired.")]
         [SerializeField] protected Transform m_FireLocation;
         [Tooltip("The distance in which the enemy Attacks.")]
-        [SerializeField] protected float m_AttackRange = 7;
+        [SerializeField] protected float m_AttackRange = 10;
         [Tooltip("The distance in which the enemy Follows.")]
-        [SerializeField] protected float m_MaxFollowRange = 3;
+        [SerializeField] protected float m_MaxFollowRange = 8;
         [Tooltip("The delay until the turret will fire again.")]
         [SerializeField] protected float m_FireDelay = 0.5f;
         [Tooltip("Is head in oposite direction")]
@@ -94,8 +94,12 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
                 return;
             }
 
-            MoveTowardsTarget();
-            CheckForAttack();
+            bool isAttack = CheckForAttack();
+            
+            if(!isAttack)
+            {
+                MoveTowardsTarget();
+            }
         }
 
         public void MoveTowardsTarget()
@@ -103,12 +107,13 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
             var targetRotation = Quaternion.Euler(0,0,0);
             if (m_IsOposite == true)
             {
-                targetRotation = Quaternion.Euler(0, Quaternion.LookRotation(m_Target.position - m_Transform.position).eulerAngles.y, 0);
+                targetRotation = Quaternion.LookRotation(m_Target.position - m_Transform.position);
                 m_Transform.rotation = Quaternion.Slerp(m_Transform.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
             }
             else
             {
-                targetRotation = Quaternion.Euler(0, Quaternion.LookRotation(m_Transform.position - m_Target.position).eulerAngles.y, 0);
+                targetRotation = Quaternion.LookRotation(m_Transform.position - m_Target.position);
+                m_Transform.rotation = Quaternion.Slerp(m_Transform.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
             }
 
             m_Transform.rotation = Quaternion.Slerp(m_Transform.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
@@ -121,13 +126,15 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
             }
         }
 
-        public void CheckForAttack()
+        public bool CheckForAttack()
         {
             // The turret can attack if it hasn't fired recently and the target is in front of the turret.
             if (m_LastFireTime + m_FireDelay < Time.time && (m_Transform.position - m_Target.position).magnitude < m_AttackRange && (m_Health == null || m_Health.Value > 0))
             {
                 Attack();
+                return true;
             }
+            return false;
         }
 
         public void Attack()
