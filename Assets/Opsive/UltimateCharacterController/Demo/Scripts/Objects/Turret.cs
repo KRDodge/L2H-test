@@ -126,7 +126,7 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         /// </summary>
         public void RotateTowardsTarget()
         {
-            var targetRotation = Quaternion.Euler(0, Quaternion.LookRotation(m_TurretHead.position - m_Target.position).eulerAngles.y, 0);
+            var targetRotation = Quaternion.Euler(0, Quaternion.LookRotation(m_Target.position - m_TurretHead.position).eulerAngles.y, 0);
             m_TurretHead.rotation = Quaternion.Slerp(m_TurretHead.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
         }
 

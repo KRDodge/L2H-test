@@ -504,3 +504,595 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1062.174654 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunFire.fbx
+  artifactKey: Guid(1f563c5ce6bfe8b4eaf9471e9e509bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunFire.fbx using Guid(1f563c5ce6bfe8b4eaf9471e9e509bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1e38d264e733be2082498fe8098ea1') in 0.059541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunCrouchDryFire.fbx
+  artifactKey: Guid(99c7b62978ecb0b40837c941a7de3634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunCrouchDryFire.fbx using Guid(99c7b62978ecb0b40837c941a7de3634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b421b54be0f2bdc3c534c492d9da983') in 0.023534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunCrouchIdle.fbx
+  artifactKey: Guid(22c19dade0961454c8f195a913151788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunCrouchIdle.fbx using Guid(22c19dade0961454c8f195a913151788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01aa48412daefa478673f876c031af5') in 0.023523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunCrouchMeleeAttackFromAim.fbx
+  artifactKey: Guid(410869b9ffd7b9349aea98dfa91f7bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunCrouchMeleeAttackFromAim.fbx using Guid(410869b9ffd7b9349aea98dfa91f7bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58b910936d0357134708831b476c18d') in 0.021475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Audio/Items/Shooter/Shotgun/ShotgunDryFire.wav
+  artifactKey: Guid(f471345df25028c48b7b2e0d9ad502d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Audio/Items/Shooter/Shotgun/ShotgunDryFire.wav using Guid(f471345df25028c48b7b2e0d9ad502d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a819093b2779c1346f27deb2d97bef') in 0.053842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunEquipFromIdle.fbx
+  artifactKey: Guid(d197c68c0493f4249af56c2250d92c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunEquipFromIdle.fbx using Guid(d197c68c0493f4249af56c2250d92c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dddee65a8452725711d68da5aff172') in 0.025754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunIdle.fbx
+  artifactKey: Guid(65bfbbfda40f34445b0fdc46db0f8e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunIdle.fbx using Guid(65bfbbfda40f34445b0fdc46db0f8e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95aebdf848aff2671a2d77d0146bb31b') in 0.024707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunCrouchReloadHigh.fbx
+  artifactKey: Guid(341135ae9eeb44a4a8e02afa36e15f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/ShotgunCrouchReloadHigh.fbx using Guid(341135ae9eeb44a4a8e02afa36e15f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b512fd38d4f9745d86e5b5bf8fd55a2f') in 0.022933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/FirstPerson/ShotgunMeleeAttackFirstPerson.fbx
+  artifactKey: Guid(addf7e150b8ef9e4abdde7449173804d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Items/Shooter/Shotgun/FirstPerson/ShotgunMeleeAttackFirstPerson.fbx using Guid(addf7e150b8ef9e4abdde7449173804d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32741d3632cdf73eec7f729613fcd10c') in 0.028800 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014103 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.255 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2256ms)
+		BeginReloadAssembly (317ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (1747ms)
+			LoadAssemblies (277ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (828ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.2 MB.
+System memory in use after: 165.4 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4603.
+Total: 4.952700 ms (FindLiveObjects: 0.365400 ms CreateObjectMapping: 0.398900 ms MarkObjects: 3.972000 ms  DeleteObjects: 0.214700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 215.176218 seconds.
+  path: Assets/Behavior Designer
+  artifactKey: Guid(7b303277dfa449d4a93437535228816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavior Designer using Guid(7b303277dfa449d4a93437535228816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c9340096d512fecf8d17ed29abde95') in 0.017902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.250790 seconds.
+  path: Assets/Behavior Designer/Documentation.pdf
+  artifactKey: Guid(4646946da2762db46a08e76a6c42f832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavior Designer/Documentation.pdf using Guid(4646946da2762db46a08e76a6c42f832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22803bd5d2d5d47cad4124bbc7272738') in 0.039418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.979915 seconds.
+  path: Assets/Behavior Designer/Editor
+  artifactKey: Guid(3aa7d582439bc2f4da8254d1364e0f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavior Designer/Editor using Guid(3aa7d582439bc2f4da8254d1364e0f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c3ff8efc1d5c939cb7f8778066432e') in 0.008182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 358.132859 seconds.
+  path: Assets/Behavior Designer/Integrations
+  artifactKey: Guid(519776d3d02747548a264d7d32320ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavior Designer/Integrations using Guid(519776d3d02747548a264d7d32320ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92da12d38933832f2be2e43f9442f62') in 0.016289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.556935 seconds.
+  path: Assets/Behavior Designer/Runtime
+  artifactKey: Guid(33b3095a3727f544dbe47311776edb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavior Designer/Runtime using Guid(33b3095a3727f544dbe47311776edb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535b1d93eff8385255620bdb9f385034') in 0.010804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.627791 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animator/Characters/Demo.controller
+  artifactKey: Guid(7a3c9dbb86c183646bfccf5b0a2f9dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animator/Characters/Demo.controller using Guid(7a3c9dbb86c183646bfccf5b0a2f9dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef4e538c0630a9bffb786b5252d16ac') in 7.571907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 158.614013 seconds.
+  path: Assets/StudioNewPunch
+  artifactKey: Guid(cb83a4c8003ab724aa8c779358d8c961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch using Guid(cb83a4c8003ab724aa8c779358d8c961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c548a2cda54a543a2238dc34c7312d') in 0.008889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.793298 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkBwd.fbx
+  artifactKey: Guid(6c2a808cc4e87b44d9d193fd2c81c1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkBwd.fbx using Guid(6c2a808cc4e87b44d9d193fd2c81c1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa3193c324d55ec3147887b5d2a6bc8') in 0.056833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkBwdTurnLeft.fbx
+  artifactKey: Guid(9412d52432af47543b19265a73ebf579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkBwdTurnLeft.fbx using Guid(9412d52432af47543b19265a73ebf579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3803288af07cc429700f92cba07f1f6') in 0.035965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkBwd.fbx
+  artifactKey: Guid(ddc0ecd2b38556a4686af2fbc2f312d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkBwd.fbx using Guid(ddc0ecd2b38556a4686af2fbc2f312d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019a62c1f1e9bb8c955f18d76bf182f9') in 0.034861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkBwdTurnLeft.fbx
+  artifactKey: Guid(df54f5c6bf1e8f741803ade8b21f3f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkBwdTurnLeft.fbx using Guid(df54f5c6bf1e8f741803ade8b21f3f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f144eaf67c842e8e27f089f6053a1fa0') in 0.034626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkStrafeLeft.fbx
+  artifactKey: Guid(20b79e75dea98dd40b5bc757f247fe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkStrafeLeft.fbx using Guid(20b79e75dea98dd40b5bc757f247fe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6aee3afeb6dc98e7910cfd5072684d') in 0.036537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkFwdTurnLeft.fbx
+  artifactKey: Guid(fd40963a6b66c7c4bb5a743cb66582db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkFwdTurnLeft.fbx using Guid(fd40963a6b66c7c4bb5a743cb66582db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81897a86cf1e19eafece56aabcb223db') in 0.039720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000849 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkFwdTurnLeft.fbx
+  artifactKey: Guid(f04c6922eb89e8d468dbdcc142868169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkFwdTurnLeft.fbx using Guid(f04c6922eb89e8d468dbdcc142868169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eed7323ea715f3e42105e7cac6b47a5') in 0.038805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkFwdTurnRight.fbx
+  artifactKey: Guid(efc6dd58ea9813d48b2fb800c2d57fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkFwdTurnRight.fbx using Guid(efc6dd58ea9813d48b2fb800c2d57fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4a8153a85ac7d5cee97d0ca56cdbc6') in 0.037080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkBwdTurnRight.fbx
+  artifactKey: Guid(4c87058f11a9d584ab6558c49aedf530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkBwdTurnRight.fbx using Guid(4c87058f11a9d584ab6558c49aedf530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f510bab8497ca3d1196ac79b921bb9') in 0.039862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkBwdTurnRight.fbx
+  artifactKey: Guid(c1ed24f3c65da7b44bd7957efbc32eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkBwdTurnRight.fbx using Guid(c1ed24f3c65da7b44bd7957efbc32eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d89642ea0ab6a72cc8fd0d5c4f2368') in 0.036493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkFwd.fbx
+  artifactKey: Guid(1a6c4c66c3de114429df61d637a61803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkFwd.fbx using Guid(1a6c4c66c3de114429df61d637a61803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c734f7f584dbb50fa8c77438e73aec7') in 0.035109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkBwdTurnLeft.fbx
+  artifactKey: Guid(b744a52ee4a95d547840b59d986969f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkBwdTurnLeft.fbx using Guid(b744a52ee4a95d547840b59d986969f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5334e65528945c901ef889f3100f373f') in 0.036982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkStrafeLeft.fbx
+  artifactKey: Guid(3bec9e8187bab3941a55414958b181e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkStrafeLeft.fbx using Guid(3bec9e8187bab3941a55414958b181e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6558e008a4806c7e853e1e31680b84f') in 0.040359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkBwd.fbx
+  artifactKey: Guid(e580ae98eff8e3e4196a052dce1ffb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkBwd.fbx using Guid(e580ae98eff8e3e4196a052dce1ffb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af789431263b31be08d681489ce3fcd') in 0.039981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkBwdTurnRight.fbx
+  artifactKey: Guid(ae14b4645ec17ca46a8526a6d02b6700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkBwdTurnRight.fbx using Guid(ae14b4645ec17ca46a8526a6d02b6700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3474d08fa9a07c333d26b926e9200b') in 0.040499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkFwdTurnRight.fbx
+  artifactKey: Guid(7b3b67ea623bf2f4c96f4feb2a20705e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkFwdTurnRight.fbx using Guid(7b3b67ea623bf2f4c96f4feb2a20705e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ed367a9475538f25eb79caca67a7cf') in 0.043312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkFwdTurnRight.fbx
+  artifactKey: Guid(3094d5aed9359174aaee4d82fbc4ec73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkFwdTurnRight.fbx using Guid(3094d5aed9359174aaee4d82fbc4ec73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61115af8f331c5d814686e192e1a1455') in 0.040436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkFwdTurnLeft.fbx
+  artifactKey: Guid(a03d4cdc75a7dc24c9ec736774399593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkFwdTurnLeft.fbx using Guid(a03d4cdc75a7dc24c9ec736774399593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1bc099f6ac51bbbb6f543c05e78f68') in 0.034816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkStrafeRight.fbx
+  artifactKey: Guid(effccdb107c676645914998d57f519e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkStrafeRight.fbx using Guid(effccdb107c676645914998d57f519e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a0db36d55f732eb517b0bb3854848e') in 0.037499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkFwd.fbx
+  artifactKey: Guid(fae6a2433f298dc45928da13760dd679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkFwd.fbx using Guid(fae6a2433f298dc45928da13760dd679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f5890c1bf04447db6b868e4ed276af') in 0.034800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkFwdTurnLeft.fbx
+  artifactKey: Guid(b3f639c228e6c1f43970e011197f240e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkFwdTurnLeft.fbx using Guid(b3f639c228e6c1f43970e011197f240e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ca20c1d2f48d8b043b8acecf37c15e') in 0.045160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkTurnLeft.fbx
+  artifactKey: Guid(a2d03c1e51993ff4d83790da38882c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkTurnLeft.fbx using Guid(a2d03c1e51993ff4d83790da38882c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae526c0c28f4be7c659c632a0bfba93') in 0.037701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkStrafeLeft.fbx
+  artifactKey: Guid(10dc0b5b3be77894e8868b83ebf81cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkStrafeLeft.fbx using Guid(10dc0b5b3be77894e8868b83ebf81cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0107bd267cf9c7c92dfc322c8721c52') in 0.042007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkBwdTurnRight.fbx
+  artifactKey: Guid(8af5e7ae66d40d24bb047a0050cca61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkBwdTurnRight.fbx using Guid(8af5e7ae66d40d24bb047a0050cca61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed179030ae213e0c459f7d84d4bb4bf8') in 0.038017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkFwdTurnRight.fbx
+  artifactKey: Guid(c54e2279f8c59bc429b8000a2920f885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkFwdTurnRight.fbx using Guid(c54e2279f8c59bc429b8000a2920f885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffce6b0fd563f50c28817f5300a0fc5') in 0.057777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkStrafeRight.fbx
+  artifactKey: Guid(47a5abb7adfe1244c9ab2b65c595435b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/BowAimWalkStrafeRight.fbx using Guid(47a5abb7adfe1244c9ab2b65c595435b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbd04ccc0edc2f0985f3be614dcf99f') in 0.041905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkStrafeLeft.fbx
+  artifactKey: Guid(fbed2282e9abbfe42b61e5f0f02be759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkStrafeLeft.fbx using Guid(fbed2282e9abbfe42b61e5f0f02be759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c84938558916d4269771d46fb4f9121') in 0.033948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkFwd.fbx
+  artifactKey: Guid(98e94bf46c16e594a8b90e993ec29e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkFwd.fbx using Guid(98e94bf46c16e594a8b90e993ec29e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb5b953b39c8b4b0dd541f6d9f759ea') in 0.033818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkTurnRight.fbx
+  artifactKey: Guid(c7f203d4f188bb642a389cc200734f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkTurnRight.fbx using Guid(c7f203d4f188bb642a389cc200734f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699dd75abce77c7a50b731176569a9fa') in 0.037321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkFwd.fbx
+  artifactKey: Guid(c81e578f321b6cf4e93eae1ab9681332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkFwd.fbx using Guid(c81e578f321b6cf4e93eae1ab9681332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b791e0872a44be5783546a2fd19c645') in 0.050949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkStrafeRight.fbx
+  artifactKey: Guid(4ac115d057641954889cb4621cb8540e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/MeleeAimWalkStrafeRight.fbx using Guid(4ac115d057641954889cb4621cb8540e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c85b53bfe221dfcc0891a9c72d884a') in 0.035539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkStrafeRight.fbx
+  artifactKey: Guid(06ba8b18fac4b0e41a20d2db351084b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkStrafeRight.fbx using Guid(06ba8b18fac4b0e41a20d2db351084b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebdfc7a8cb5105848a5856e1664bbc4') in 0.035021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkBwdTurnLeft.fbx
+  artifactKey: Guid(25a14269ffd61e942ba0b9f46cfd2e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/AimWalkBwdTurnLeft.fbx using Guid(25a14269ffd61e942ba0b9f46cfd2e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa8654dfd02a8c53178915641905f0b') in 0.038422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkBwd.fbx
+  artifactKey: Guid(eb29defa25f60a641b08469fd7d813f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Animations/Movement/Walk/WalkBwd.fbx using Guid(eb29defa25f60a641b08469fd7d813f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86633e5c67104257089b5735bc26785') in 0.036002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.052864 seconds.
+  path: Assets/StudioNewPunch/Free/New Animator Controller.controller
+  artifactKey: Guid(35df2aafb2b8b2d41aea0c18a2403746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/Free/New Animator Controller.controller using Guid(35df2aafb2b8b2d41aea0c18a2403746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43217a1a8428228f5f2221cd30d2257') in 0.016148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.031120 seconds.
+  path: Assets/StudioNewPunch/Free/ZombieAnimator.controller
+  artifactKey: Guid(35df2aafb2b8b2d41aea0c18a2403746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/Free/ZombieAnimator.controller using Guid(35df2aafb2b8b2d41aea0c18a2403746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e497c19d6902e00f8b2596e1102e63e') in 0.008652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.309940 seconds.
+  path: Assets/StudioNewPunch/Free/Animation/zombie idle 1.fbx
+  artifactKey: Guid(1d6924d7812184243aa5a007bcfe6a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/Free/Animation/zombie idle 1.fbx using Guid(1d6924d7812184243aa5a007bcfe6a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2eb2f533e26211aabc48e6ae16dbde') in 0.014325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.518403 seconds.
+  path: Assets/StudioNewPunch/Free/Animation/New Animation.anim
+  artifactKey: Guid(1fa2112cc600c7948951e5923d26e2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/Free/Animation/New Animation.anim using Guid(1fa2112cc600c7948951e5923d26e2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58d5f84e5e939ff2a51297d15a6369d') in 0.010342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.181542 seconds.
+  path: Assets/StudioNewPunch/Free/Animation/ZombieAnimation.controller
+  artifactKey: Guid(3e0e4c4e9247c1746b5efecb3225058d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/Free/Animation/ZombieAnimation.controller using Guid(3e0e4c4e9247c1746b5efecb3225058d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df28c0dc25cc540eae2d8e53590d5c5a') in 0.009986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1540.367431 seconds.
+  path: Assets/Mech_Constructor_Turrets/Models/Drone_Fighter.fbx
+  artifactKey: Guid(4e6a4a75502e1714fb2f21241d97a68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mech_Constructor_Turrets/Models/Drone_Fighter.fbx using Guid(4e6a4a75502e1714fb2f21241d97a68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d93adfcc14c82fd8307a6e3c49782b') in 0.119805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Mech_Constructor_Turrets/Models/Weapon_Plasma_Lvl2.fbx
+  artifactKey: Guid(8b8db790091c1d64f8d8519407028ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mech_Constructor_Turrets/Models/Weapon_Plasma_Lvl2.fbx using Guid(8b8db790091c1d64f8d8519407028ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fdf68eb43334e035bb8e5e034ecc17') in 0.270970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Mech_Constructor_Turrets/Models/Tower_Walls.fbx
+  artifactKey: Guid(070f881214ed91e4187b997cbc8fc09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mech_Constructor_Turrets/Models/Tower_Walls.fbx using Guid(070f881214ed91e4187b997cbc8fc09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dad38ff1810566c9b2c9add54cedaf0') in 0.126099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Mech_Constructor_Turrets/Models/Fences.fbx
+  artifactKey: Guid(b686c773bc723dc4ba29a135ff81f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mech_Constructor_Turrets/Models/Fences.fbx using Guid(b686c773bc723dc4ba29a135ff81f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a170f22c4e6d0b55791f261e20138e40') in 0.189903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Mech_Constructor_Turrets/Models/Drone_Worker.fbx
+  artifactKey: Guid(ee9eb19862f950b48911c50dcff19856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mech_Constructor_Turrets/Models/Drone_Worker.fbx using Guid(ee9eb19862f950b48911c50dcff19856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd395785d02c07d892ea63162fb22e79') in 0.050468 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011355 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.497 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1497ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (1151ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (463ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.0 MB.
+System memory in use after: 170.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4606.
+Total: 2.912600 ms (FindLiveObjects: 0.443600 ms CreateObjectMapping: 0.256200 ms MarkObjects: 2.133000 ms  DeleteObjects: 0.078100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013589 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.647 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1647ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1371ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (534ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (335ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 170.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4608.
+Total: 3.039700 ms (FindLiveObjects: 0.477100 ms CreateObjectMapping: 0.250800 ms MarkObjects: 2.194300 ms  DeleteObjects: 0.115900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014436 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.522 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1522ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1284ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (508ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4610.
+Total: 2.729500 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.249900 ms MarkObjects: 2.050900 ms  DeleteObjects: 0.089900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
