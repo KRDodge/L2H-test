@@ -16,7 +16,6 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
     {
         private Transform m_Transform;
         private Vector3 m_PrevPosition;
-        private bool m_DownwardMovement;
 
         /// <summary>
         /// Initialize the default values.
@@ -33,7 +32,6 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         private void FixedUpdate()
         {
             var position = m_Transform.position;
-            m_DownwardMovement = m_Transform.InverseTransformDirection(position - m_PrevPosition).y < 0;
             m_PrevPosition = position;
         }
 
@@ -43,11 +41,6 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         /// <param name="other"></param>
         private void OnTriggerEnter(Collider other)
         {
-            // The platform has to be moving downward in order to kill the player.
-            if (!m_DownwardMovement) {
-                return;
-            }
-
             // Kill the character.
             var health = other.GetComponentInParent<CharacterHealth>();
             if (health == null) {
