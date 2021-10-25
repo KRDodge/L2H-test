@@ -108,11 +108,13 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
             if (m_IsOposite == true)
             {
                 targetRotation = Quaternion.LookRotation(m_Target.position - m_Transform.position);
+                targetRotation *= Quaternion.Euler(5, 0, 0);
                 m_Transform.rotation = Quaternion.Slerp(m_Transform.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
             }
             else
             {
                 targetRotation = Quaternion.LookRotation(m_Transform.position - m_Target.position);
+                targetRotation *= Quaternion.Euler(5, 0, 0);
                 m_Transform.rotation = Quaternion.Slerp(m_Transform.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
             }
 
