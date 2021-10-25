@@ -28,8 +28,11 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         [SerializeField] protected float m_MaxFollowRange = 8;
         [Tooltip("The delay until the turret will fire again.")]
         [SerializeField] protected float m_FireDelay = 0.5f;
+        
         [Tooltip("Is head in oposite direction")]
         [SerializeField] protected bool m_IsOposite = false;
+        [Tooltip("Enemy Pitch (nolan's center is on the floor)")]
+        [SerializeField] protected float m_RotatePitch = 10;
 
         [Tooltip("The projectile that is fired.")]
         [SerializeField] protected GameObject m_Projectile;
@@ -108,13 +111,13 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
             if (m_IsOposite == true)
             {
                 targetRotation = Quaternion.LookRotation(m_Target.position - m_Transform.position);
-                targetRotation *= Quaternion.Euler(5, 0, 0);
+                targetRotation *= Quaternion.Euler(m_RotatePitch, 0, 0);
                 m_Transform.rotation = Quaternion.Slerp(m_Transform.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
             }
             else
             {
                 targetRotation = Quaternion.LookRotation(m_Transform.position - m_Target.position);
-                targetRotation *= Quaternion.Euler(5, 0, 0);
+                targetRotation *= Quaternion.Euler(m_RotatePitch, 0, 0);
                 m_Transform.rotation = Quaternion.Slerp(m_Transform.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
             }
 
