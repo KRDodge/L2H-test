@@ -23,6 +23,8 @@ namespace Opsive.UltimateCharacterController.UI
         [SerializeField] protected string m_AttributeName = "Health";
         [Tooltip("A reference used to the slider used to show the attribute value.")]
         [SerializeField] protected Slider m_Slider;
+        [Tooltip("A reference used to show healh values.")]
+        [SerializeField] protected Text m_HealthText;
 
         private Attribute m_Attribute;
 
@@ -44,6 +46,11 @@ namespace Opsive.UltimateCharacterController.UI
                 base.Awake();
             } else {
                 enabled = false;
+            }
+            
+            if(m_HealthText != null)
+            {
+                m_HealthText.text = m_Attribute.Value + " / 100";
             }
         }
 
@@ -98,6 +105,8 @@ namespace Opsive.UltimateCharacterController.UI
             }
 
             m_Slider.value = (m_Attribute.Value - m_Attribute.MinValue) / (m_Attribute.MaxValue - m_Attribute.MinValue);
+
+            m_HealthText.text = m_Attribute.Value + " / 100";
         }
 
         /// <summary>
