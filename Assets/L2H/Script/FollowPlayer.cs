@@ -15,6 +15,8 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
 
     public class FollowPlayer : MonoBehaviour
     {
+        [Tooltip("collider")]
+        [SerializeField] protected Collider m_Collider;
         [Tooltip("rotation speed")]
         [SerializeField] protected float m_RotationSpeed = 5;
         [Tooltip("movementSpeed")]
@@ -86,7 +88,6 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         // Start is called before the first frame update
         void Start()
         {
-
         }
 
         // Update is called once per frame
@@ -98,16 +99,43 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
             }
 
             bool isAttack = CheckForAttack();
-            
-            if(!isAttack)
+
+            if (!isAttack)
             {
                 MoveTowardsTarget();
+                RotateTowardsTarget();
             }
         }
 
         public void MoveTowardsTarget()
         {
-            var targetRotation = Quaternion.Euler(0,0,0);
+            bool isInBound = false;
+            if(m_Collider != null)
+            {
+                if (m_Collider.bounds.min.x < m_Transform.position.x && m_Transform.position.x < m_Collider.bounds.max.x
+                && m_Collider.bounds.min.y < m_Transform.position.y && m_Transform.position.y < m_Collider.bounds.max.y
+                && m_Collider.bounds.min.z < m_Transform.position.z && m_Transform.position.z < m_Collider.bounds.max.z)
+                    isInBound = true;
+            }
+            else
+            {
+                isInBound = true;
+            }
+
+            if (isInBound == false)
+                return;
+
+            if (Vector3.Distance(m_Transform.position, m_Target.position) > m_MaxFollowRange)
+            {
+                Vector3 followPostion = new Vector3(m_Target.position.x, transform.position.y, m_Target.position.z);
+                m_Transform.position = Vector3.MoveTowards(transform.position, followPostion, m_MoveSpeed * Time.deltaTime);
+            }
+        }
+
+        public void RotateTowardsTarget()
+        {
+
+            var targetRotation = Quaternion.Euler(0, 0, 0);
             if (m_IsOposite == true)
             {
                 targetRotation = Quaternion.LookRotation(m_Target.position - m_Transform.position);
@@ -123,12 +151,6 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
 
             m_Transform.rotation = Quaternion.Slerp(m_Transform.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
 
-
-            if (Vector3.Distance(m_Transform.position, m_Target.position) > m_MaxFollowRange)
-            {
-                Vector3 followPostion = new Vector3(m_Target.position.x, transform.position.y, m_Target.position.z);
-                m_Transform.position = Vector3.MoveTowards(transform.position, followPostion, m_MoveSpeed * Time.deltaTime);
-            }
         }
 
         public bool CheckForAttack()
