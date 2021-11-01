@@ -313,5 +313,15 @@ namespace Opsive.Shared.Input
                 Cursor.visible = false;
             }
         }
+
+        public void OnApplicationFocusPublic(bool hasFocus)
+        {
+            base.OnApplicationFocus(hasFocus);
+
+            if (enabled && hasFocus && m_DisableCursor) {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
+        }
     }
 }
