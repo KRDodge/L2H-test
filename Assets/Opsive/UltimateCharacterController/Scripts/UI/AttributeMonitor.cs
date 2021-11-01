@@ -106,7 +106,7 @@ namespace Opsive.UltimateCharacterController.UI
 
             m_Slider.value = (m_Attribute.Value - m_Attribute.MinValue) / (m_Attribute.MaxValue - m_Attribute.MinValue);
 
-            m_HealthText.text = m_Attribute.Value + " / 100";
+            m_HealthText.text = (int)m_Attribute.Value + " / 100";
         }
 
         /// <summary>

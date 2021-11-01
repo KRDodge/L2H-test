@@ -25,7 +25,7 @@ namespace Opsive.UltimateCharacterController.Editor.Utility
             // Unity defined axis:
             UnityInputBuilder.AddInputAxis(axisProperty, "Horizontal", "left", "right", "a", "d", 1000, 0.001f, 3, true, false, UnityInputBuilder.AxisType.KeyMouseButton, UnityInputBuilder.AxisNumber.X);
             UnityInputBuilder.AddInputAxis(axisProperty, "Vertical", "down", "up", "s", "w", 1000, 0.001f, 3, true, false, UnityInputBuilder.AxisType.KeyMouseButton, UnityInputBuilder.AxisNumber.X);
-            UnityInputBuilder.AddInputAxis(axisProperty, "Fire1", "", "left ctrl", "", "mouse 0", 1000, 0.001f, 1000, false, false, UnityInputBuilder.AxisType.KeyMouseButton, UnityInputBuilder.AxisNumber.X);
+            UnityInputBuilder.AddInputAxis(axisProperty, "Fire1", "", "", "", "mouse 0", 1000, 0.001f, 1000, false, false, UnityInputBuilder.AxisType.KeyMouseButton, UnityInputBuilder.AxisNumber.X);
             UnityInputBuilder.AddInputAxis(axisProperty, "Fire2", "", "", "", "mouse 1", 1000, 0.001f, 1000, false, false, UnityInputBuilder.AxisType.KeyMouseButton, UnityInputBuilder.AxisNumber.X);
             UnityInputBuilder.AddInputAxis(axisProperty, "Fire3", "", "left shift", "", "mouse 2", 1000, 0.001f, 1000, false, false, UnityInputBuilder.AxisType.KeyMouseButton, UnityInputBuilder.AxisNumber.X);
             UnityInputBuilder.AddInputAxis(axisProperty, "Jump", "", "space", "", "", 1000, 0.001f, 1000, false, false, UnityInputBuilder.AxisType.KeyMouseButton, UnityInputBuilder.AxisNumber.X);
