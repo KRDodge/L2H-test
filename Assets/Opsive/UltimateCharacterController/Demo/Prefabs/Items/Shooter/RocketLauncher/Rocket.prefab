@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Mass: 1
   m_StartVelocityMultiplier: 1
   m_GravityMagnitude: 0
-  m_Speed: 1
+  m_Speed: 3
   m_RotationSpeed: 1
   m_Damping: 0.1
   m_RotationDamping: 0.1
