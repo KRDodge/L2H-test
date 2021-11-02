@@ -57,16 +57,26 @@ namespace Opsive.UltimateCharacterController.Character.Abilities.Items
             m_ScrollItemSetIndex = m_ItemSetManager.NextActiveItemSetIndex(m_ItemSetCategoryIndex, m_EquipUnequipItemAbility.ActiveItemSetIndex, InputAxisValue > 0);
 
             return m_ScrollItemSetIndex != -1 && m_ScrollItemSetIndex != m_EquipUnequipItemAbility.ActiveItemSetIndex;
-        }
+		}
 
-        /// <summary>
-        /// The ability has started.
-        /// </summary>
-        protected override void AbilityStarted()
+		/// <summary>
+		/// The ability has started.
+		/// </summary>
+		protected override void AbilityStarted()
+		{
+			base.AbilityStarted();
+
+			m_EquipUnequipItemAbility.StartEquipUnequip(m_ScrollItemSetIndex);
+
+			// It is up to the EquipUnequip ability to do the actual equip - stop the current ability.
+			StopAbility();
+		}
+
+        public void AbilityStartedonUI(int itemId)
         {
             base.AbilityStarted();
 
-            m_EquipUnequipItemAbility.StartEquipUnequip(m_ScrollItemSetIndex);
+            m_EquipUnequipItemAbility.StartEquipUnequip(itemId);
 
             // It is up to the EquipUnequip ability to do the actual equip - stop the current ability.
             StopAbility();
