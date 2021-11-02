@@ -1,10 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using Opsive.Shared.Game;
 using Opsive.UltimateCharacterController.Character;
-using Opsive.UltimateCharacterController.Game;
-using Opsive.UltimateCharacterController.Utility;
-using Opsive.Shared.Events;
 using Opsive.Shared.Input;
 using UnityEngine;
 using UnityEngine.UI;
@@ -44,7 +39,6 @@ public class SelectWeaponUI : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 unityInput.OnApplicationFocusPublic(false);
             }
-
         }
     }
 

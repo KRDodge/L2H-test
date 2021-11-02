@@ -52,6 +52,7 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         [SerializeField] protected int m_ImpactForceFrames = 1;
         [Tooltip("The Surface Impact triggered when the weapon hits an object.")]
         [SerializeField] protected SurfaceImpact m_SurfaceImpact;
+        [SerializeField] protected float m_RotatePitch = 5;
 
         [Tooltip("Optionally specify a muzzle flash that should appear when the turret is fired.")]
         [SerializeField] protected GameObject m_MuzzleFlash;
@@ -71,6 +72,7 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         private Transform m_Target;
         private Health m_Health;
         private float m_LastFireTime;
+        private bool inFireRange = false;
 
         /// <summary>
         /// Initialize the default values.
@@ -130,11 +132,13 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         {
             if(m_IsOposite == true)
             {
-                var targetRotation = Quaternion.Euler(0, Quaternion.LookRotation(m_Target.position - m_TurretHead.position).eulerAngles.y, 0);
+                var targetRotation = Quaternion.LookRotation(m_Target.position - m_TurretHead.position);
+                targetRotation *= Quaternion.Euler(m_RotatePitch, 0, 0);
                 m_TurretHead.rotation = Quaternion.Slerp(m_TurretHead.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
             }
             else{
-                var targetRotation = Quaternion.Euler(0, Quaternion.LookRotation(m_TurretHead.position - m_Target.position).eulerAngles.y, 0);
+                var targetRotation = Quaternion.LookRotation(m_TurretHead.position - m_Target.position);
+                targetRotation *= Quaternion.Euler(m_RotatePitch, 0, 0);
                 m_TurretHead.rotation = Quaternion.Slerp(m_TurretHead.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
             }
             
@@ -145,8 +149,8 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         /// </summary>
         public void CheckForAttack()
         {
-            // The turret can attack if it hasn't fired recently and the target is in front of the turret.
-            if (m_LastFireTime + m_FireDelay < Time.time && (m_Transform.position - m_Target.position).magnitude < m_FireRange && (m_Health == null || m_Health.Value > 0)) {
+            // The turret can attack if it hasns't fired recently and the target is in front of the turret.
+            if (m_LastFireTime + m_FireDelay < Time.time && (m_Transform.position - m_Target.position).magnitude < m_FireRange && (m_Health == null || m_Health.Value > 0) && inFireRange) {
                 Fire();
             }
         }
@@ -198,6 +202,7 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
 
             m_Target = characterLocomotion.transform;
             m_Health = characterLocomotion.GetComponent<Health>();
+            inFireRange = true;
         }
 
         /// <summary>
@@ -206,6 +211,7 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         /// <param name="other">The collider that exited the trigger.</param>
         private void OnTriggerExit(Collider other)
         {
+            inFireRange = false;
             if (other.gameObject != m_Target.gameObject) {
                 return;
             }
