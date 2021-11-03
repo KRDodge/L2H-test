@@ -191,6 +191,7 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         /// <param name="other">The object that entered the trigger.</param>
         private void OnTriggerEnter(Collider other)
         {
+            inFireRange = true;
             if (m_Target != null || !MathUtility.InLayerMask(other.gameObject.layer, 1 << LayerManager.Character)) {
                 return;
             }
@@ -202,7 +203,6 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
 
             m_Target = characterLocomotion.transform;
             m_Health = characterLocomotion.GetComponent<Health>();
-            inFireRange = true;
         }
 
         /// <summary>
@@ -211,7 +211,13 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         /// <param name="other">The collider that exited the trigger.</param>
         private void OnTriggerExit(Collider other)
         {
-            inFireRange = false;
+
+            var characterLocomotion = other.GetComponentInParent<UltimateCharacterLocomotion>();
+            if (characterLocomotion != null)
+            {
+                inFireRange = false;
+            }
+
             if (other.gameObject != m_Target.gameObject) {
                 return;
             }
