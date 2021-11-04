@@ -386,7 +386,7 @@ namespace Opsive.UltimateCharacterController.Character.Abilities.Items
         /// <returns>True if the ability was started.</returns>
         public bool StartEquipUnequip(int itemSetIndex)
         {
-            return StartEquipUnequip(itemSetIndex, false);
+            return StartEquipUnequip(itemSetIndex, true);
         }
 
         /// <summary>
@@ -409,14 +409,15 @@ namespace Opsive.UltimateCharacterController.Character.Abilities.Items
         /// <returns>True if the ability was started.</returns>
         public bool StartEquipUnequip(int itemSetIndex, bool forceEquipUnequip, bool immediateEquipUnequip)
         {
-            // No actions are necessary if the item set is already equipped.
-            if ((!IsActive && itemSetIndex == m_ItemSetManager.ActiveItemSetIndex[m_ItemSetCategoryIndex]) || 
-                (IsActive && !immediateEquipUnequip && itemSetIndex == m_ItemSetManager.NextItemSetIndex[m_ItemSetCategoryIndex])) {
-                return false;
-            }
+			//No actions are necessary if the item set is already equipped.
+            if ((!IsActive && itemSetIndex == m_ItemSetManager.ActiveItemSetIndex[m_ItemSetCategoryIndex]) ||
+				(IsActive && !immediateEquipUnequip && itemSetIndex == m_ItemSetManager.NextItemSetIndex[m_ItemSetCategoryIndex]))
+			{
+				return false;
+			}
 
-            // Equip unequip normally will not start if use or reload is active. If the ability is forced then it should first stop the abilities.
-            if (forceEquipUnequip) {
+			// Equip unequip normally will not start if use or reload is active. If the ability is forced then it should first stop the abilities.
+			if (forceEquipUnequip) {
                 var activeItemAbilities = m_CharacterLocomotion.ActiveItemAbilities;
                 for (int i = m_CharacterLocomotion.ActiveItemAbilityCount - 1; i > -1; --i) {
                     if (activeItemAbilities[i] is Use

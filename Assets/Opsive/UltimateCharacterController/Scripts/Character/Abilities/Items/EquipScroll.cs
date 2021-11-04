@@ -45,14 +45,14 @@ namespace Opsive.UltimateCharacterController.Character.Abilities.Items
         public override bool CanStartAbility()
         {
             // An attribute may prevent the ability from starting.
-            if (!base.CanStartAbility()) {
-                return false;
-            }
+            //if (!base.CanStartAbility()) {
+            //    return false;
+            //}
 
             // Don't scroll items if the scroll wheel value isn't large enough.
-            if (Mathf.Abs(InputAxisValue) < m_ScrollSensitivity) {
-                return false;
-            }
+            //if (Mathf.Abs(InputAxisValue) < m_ScrollSensitivity) {
+            //    return false;
+            //}
 
             m_ScrollItemSetIndex = m_ItemSetManager.NextActiveItemSetIndex(m_ItemSetCategoryIndex, m_EquipUnequipItemAbility.ActiveItemSetIndex, InputAxisValue > 0);
 

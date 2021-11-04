@@ -1,0 +1,1159 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.11f1 (4d8c25f7477e) revision 5082149'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'ko' Physical Memory: 16321 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/HappyDaramPC_3/Documents/GitHub/L2H-test
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49370
+Successfully changed project path to: C:/Users/HappyDaramPC_3/Documents/GitHub/L2H-test
+C:/Users/HappyDaramPC_3/Documents/GitHub/L2H-test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 818.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.11f1 (4d8c25f7477e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/HappyDaramPC_3/Documents/GitHub/L2H-test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006494 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 297.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.931 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4931ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1075ms)
+			LoadAssemblies (252ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (595ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (298ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016053 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1462ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1218ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (406ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.1 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4565.
+Total: 3.010200 ms (FindLiveObjects: 0.355200 ms CreateObjectMapping: 0.335600 ms MarkObjects: 2.197600 ms  DeleteObjects: 0.120900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/01L2H/Script/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01L2H/Script/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.038735 seconds  code(4) message(Build asset version error: assets/01l2h/script/bulletpickup.cs in SourceAssetDB has modification time of '2021-11-04T02:41:17.5100728Z' while content on disk has modification time of '2021-11-04T02:41:42.6898178Z')
+  ERROR: Build asset version error: assets/01l2h/script/bulletpickup.cs in SourceAssetDB has modification time of '2021-11-04T02:41:17.5100728Z' while content on disk has modification time of '2021-11-04T02:41:42.6898178Z'
+========================================================================
+Received Import Request.
+  Time since last request: 357.083644 seconds.
+  path: Assets/01L2H/Script/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01L2H/Script/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba92059b9c949cc35946ba54734cbb8') in 0.019699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1092.580892 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Presets/Camera/ThirdPerson/DisableCharacterFadeObjectFaderPreset.asset
+  artifactKey: Guid(2e0a695447b162e4f8f2ba5d934c9d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Presets/Camera/ThirdPerson/DisableCharacterFadeObjectFaderPreset.asset using Guid(2e0a695447b162e4f8f2ba5d934c9d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e6e61ff0d2d5fa4f26c09159c2c243') in 0.086920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Presets/Character/ThirdPerson/VisibleThirdPersonObjectPreset.asset
+  artifactKey: Guid(de01ff1ab6d25a044852c9fc829929a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Presets/Character/ThirdPerson/VisibleThirdPersonObjectPreset.asset using Guid(de01ff1ab6d25a044852c9fc829929a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80a070e6403096c0f1d7c419568fbc1') in 0.022192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.444934 seconds.
+  path: Assets/01L2H/Script/Mine.cs
+  artifactKey: Guid(4704ee203ffdad24d8be52274afed7dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/01L2H/Script/Mine.cs using Guid(4704ee203ffdad24d8be52274afed7dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ad4b5575dff25cbd1ae417b7f2eaa2c0') in 0.083521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001018 seconds.
+  path: Assets/01L2H/Script/RocketZone.cs
+  artifactKey: Guid(bf6b41c1acef9774ca90cb145c0c96e1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/01L2H/Script/RocketZone.cs using Guid(bf6b41c1acef9774ca90cb145c0c96e1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2562fb94195a63c7351b1593c744cdd0') in 0.545952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/SineVFX/TopDownEffects/_Documentation
+  artifactKey: Guid(99a62bc2276ad2e45b5c1f00315d80e8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SineVFX/TopDownEffects/_Documentation using Guid(99a62bc2276ad2e45b5c1f00315d80e8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7e28c53e6c3b6db9d0548937f3837e46') in 0.091687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005317 seconds.
+  path: Assets/SineVFX
+  artifactKey: Guid(3fc86d3dc8374af428d5e1bf5ce0f396) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SineVFX using Guid(3fc86d3dc8374af428d5e1bf5ce0f396) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'dd94a204eb262173a5069144571378e7') in 0.025703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/05Scenes/Stage1.unity
+  artifactKey: Guid(a5b9915d35597bb4d959c4e67d8cd6ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/05Scenes/Stage1.unity using Guid(a5b9915d35597bb4d959c4e67d8cd6ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cc7f9c297c9e1c4d5d7c235975ef11e3') in 0.119267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001870 seconds.
+  path: Assets/01L2H/Script/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/01L2H/Script/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f4bec8b7b64386b34f0daf5fbc9064c8') in 0.067486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/00Assets/SineVFX/TopDownEffects/_Packages/!!!_ReadBeforeImport_!!!.txt
+  artifactKey: Guid(08eba006c0f320a43a3b3bf3fc0b66f7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/00Assets/SineVFX/TopDownEffects/_Packages/!!!_ReadBeforeImport_!!!.txt using Guid(08eba006c0f320a43a3b3bf3fc0b66f7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c32e82d7d7a00f8b5c70afa0950b03e6') in 0.023984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/SineVFX/TopDownEffects
+  artifactKey: Guid(3fd224f99cc34263877cdbbafd2e1b1d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SineVFX/TopDownEffects using Guid(3fd224f99cc34263877cdbbafd2e1b1d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b65920914c70a27db524e07b3e448f15') in 0.016201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Character/Abilities/Items/EquipUnequip.cs
+  artifactKey: Guid(71a93dbc059085f48b2c6356c89cb07c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Character/Abilities/Items/EquipUnequip.cs using Guid(71a93dbc059085f48b2c6356c89cb07c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '93af7325ce7914dce293b3f338e681b2') in 0.020019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Character/Abilities/Items/EquipScroll.cs
+  artifactKey: Guid(726748cf722413d4b9867ac33dc6d87b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Character/Abilities/Items/EquipScroll.cs using Guid(726748cf722413d4b9867ac33dc6d87b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5f258b0c2f802c28dad757dc06f24c2f') in 0.024281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/01L2H/Script/BaseRoomRocketPattern.cs
+  artifactKey: Guid(4f02a7fca5f778e4f92a31f4a1e396fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/01L2H/Script/BaseRoomRocketPattern.cs using Guid(4f02a7fca5f778e4f92a31f4a1e396fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0881023d64c527aba78f81fd8a863bd7') in 0.018068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.156567 seconds.
+  path: Assets/05Scenes/Stage1.unity
+  artifactKey: Guid(a5b9915d35597bb4d959c4e67d8cd6ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/05Scenes/Stage1.unity using Guid(a5b9915d35597bb4d959c4e67d8cd6ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '816d88dd5e62f9373053ec8e4ae25a89') in 0.065382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.351976 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3367b0f2674c0ecc73ce15423858334') in 0.025526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.014730 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f066c61600c8ba3d3f83cf1ac1f52150') in 0.049906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.823399 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e5b5f38eb8018922339f7f9f4a8a2310') in 0.033020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.725573 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0706b41cb467836a56df0da736324c1c') in 0.009832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.873807 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f06b119d7f8f276266fe99174ef6c978') in 0.031798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.778949 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cc9c0cf13367407b9ff30a75e7ecc2') in 0.010163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.894549 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3f0e2f8d52660d5c4a6e73636f5d067c') in 0.057336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.202592 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be1bf78945c790a426bf0419ee6301c') in 0.027598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.140238 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3cc2f53fc2ef33b28f04748ed793c8') in 0.017238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.871252 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f9b07b9ccdfcf65a55422d43415591e1') in 0.031053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.184599 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ca5cfd6a6d832c88b013abd68640d5') in 0.009756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.872868 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8c436b16355381ee7b1e4271746ee81d') in 0.016359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.764227 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bd1e67c4a3a1d0a457739acb9b2a34') in 0.009496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.913914 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ff49154dd58991c1483c040fec60b263') in 0.017489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.828138 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baab8b03551f018b5c2fd1dd6eb66e8f') in 0.007844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.888988 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2c02328bfd0154476423f7505827afef') in 0.027615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.262529 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265570836ad6c0dcba1943ef3005ec7a') in 0.012761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.905482 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9f8e94ccfee4b81177039c9ffe161da5') in 0.030947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.172125 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b7fbbb4e5f59de2d6f53ad12557174') in 0.009175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.850895 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4f2593ddc3d59c697402f521cde5aee0') in 0.021626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.428267 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac6303878ecf5bb87c8054fce6cd7eb') in 0.008142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.891580 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '75ee57e9b89c4da4542fb68a7417d3c2') in 0.019505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.805565 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cd602de02c7cddccfa10b46f32caac') in 0.011857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.908037 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'abfecd59eb7d3fe743f3a58800c7a6cf') in 0.022213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.027117 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d166b7501a6338356a11079a12ba73c') in 0.008008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.891362 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a1a0113f93021c9d6ceb827fbd34fc27') in 0.020928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.742997 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a55dc28df1172858ae9521afc7dbf76') in 0.013434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.917528 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd77da9595a8d812051e81321c6db3141') in 0.147338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.540978 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e59e80a2b28fc866cfa3adf8c36147b') in 0.008279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.913697 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8d499174f2fed39019271ea6e0003bc6') in 0.031680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.204290 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c724c9867994fa68d2b1d922073e48c') in 0.008256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.916639 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3e8251e9bca0d32c1b1739b338c8126d') in 0.068209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.479809 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028d65a01a35d6c99777e6526302dc37') in 0.022099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '09feebc6724790a6ee0c401bcf5f27c2') in 0.031825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.532415 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fb9c98b562b1afdc19d024562df7c1') in 0.005432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.865544 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b21e14c8617919cf65fb5267079741ac') in 0.023599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.442523 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0b38c09d861753e2d71d5d5bcdba61') in 0.005334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.882905 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '19f525e981e6be7999aaf6ab8ba499ad') in 0.029607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.374859 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a4deaef2da8ab34b023b910ab3f7e1') in 0.014677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.861888 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd3bc80b0f023e97fa0ee9b52bcd276d9') in 0.036197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.940725 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c67f91c612d9a89c495d8a193244ec6') in 0.011795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.862330 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a3a6e883de65b000052e42e01c45f55b') in 0.029763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.850163 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a497d996758fa3335c1f583b287ed4') in 0.010092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.894364 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e0511f226b2146aa00a5d67307b8e31e') in 0.036362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.724177 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f60c4a40bb2f4dc79aa70664ce0277b') in 0.016807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.879443 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56c0dfd613642604faaafd940c7262e') in 0.017028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.884735 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'efdaad2e9c15e368ebb6e856c3f3a3ab') in 0.015724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.694666 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe339c8db874a7415534b816b611b682') in 0.049717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.829141 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b66880515b3ff48d1e148a592ae75750') in 0.110607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.115624 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c55966865017a3898cbce615651e2c') in 0.015550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.870262 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'dd4089df6242547664df354e4a2d9229') in 0.011685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.921142 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f56ebe61d8967c4d98e7c67acfadc1a') in 0.013074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.909180 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '14ded131e937eb5737880334c4642e7f') in 0.022294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.779087 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49fe103ddd2e8c84ac1d6eeef606645') in 0.008267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.912392 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1163de52b3b9e0a74b5629b375932b77') in 0.023108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4837.697579 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c47728506dff5e0283cf2de15f5ad5') in 0.014765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.850148 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '92647c13a287953d96188ef5aa9572dc') in 0.021589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.472834 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660975da63ccdc0a4bc5bee91c8ec951') in 0.009700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.875274 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1036ff89cffe9c906b3b4aba5cbe078a') in 0.018466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.721657 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571cb7ade0fe727750a368bba1583403') in 0.010038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.928403 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '76cb7c99a36b78a4540f56bd4c30237f') in 0.032880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.762370 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e8f6de984ef129e2344a37d41bf51b') in 0.021875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.891877 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f64e2ffb26198a9495273fbbbcdb89fe') in 0.020194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.351812 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4398a8066d43055ef291fd7fbf4ec2') in 0.013828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.888114 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2ddcd143edcb71210699d7898e3bf636') in 0.019494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.468926 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e348eb8b9111f3d8ea1511f9c29c6e') in 0.014764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.893035 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4bb8d865d6741734fc1897feaf076f26') in 0.022598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.929757 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46624aa2ee06349f502d1a04c19fb0a1') in 0.011824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.896401 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e1e1643ee5d7b68d165461eeec7fd81c') in 0.031538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.239492 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffeb95a9e52731d2448eaf1f3114aac9') in 0.012378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.983327 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3e997d9d3e6c30fc8fb3f77d5fa34944') in 0.057733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.561736 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0992b5d4d55be85a1042fdba8261a2b0') in 0.077475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.790327 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '94efe10a5d05e4a4bd3da480092df785') in 0.016910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.647879 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbf6b88d98445865ee99e1e46ee30df') in 0.012760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.885856 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f5c79228a627a656405b63234ff92275') in 0.012571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.860253 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471668eaaa5f4fef415fe18317e00bb0') in 0.012871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.886291 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e77a979a687b77cb8037a45d32ea365d') in 0.039277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 176.146881 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a315f1d34dc57677cdda03e8b7aa3553') in 0.009909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.862832 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8c6229cdc9ac701210ba9254a61ee48c') in 0.016006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.185086 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c2e175c18a7521aacd2bfb0c2fbac0') in 0.009666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.849396 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '58f3a872d541a9069245092d7bb9a7a8') in 0.014474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 415.883718 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4e1df2ad3d25d67563f16899c32426') in 0.022464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.767506 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f1c12ba78b2b08cca6875aeb3548cd17') in 0.032366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.467747 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f52709fdc6d41de5fd15e481766a185') in 0.009990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.884279 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd6607fb0b048b248960a5a9d4e466030') in 0.037054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.526983 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40367d74bb94b639f4a77bd7ce053c95') in 0.016915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.922076 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bdc3fcb96e68446dd284443633ffb484') in 0.034596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.948059 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f0a0b594b81344b7fd9794f2f2f0e0') in 0.051019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.695680 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '89a4ad509611e93ea4f83aa249b8c6a9') in 0.035163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.691130 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672924b3ea1fac2c8c150a5be8c8bc4c') in 0.015044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.957437 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '32fdb973063868dd28a5f8cc6ab2fceb') in 0.126485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.364869 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24500be59fce142aebaeafa73299d6b8') in 0.079997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.766010 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd51798b6df5cad07b7057e000bec2a41') in 0.021486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.333167 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e4f4b597d01dc2a0a81911e4bb4699') in 0.029362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.062304 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bf17c44ca0d08e4152ab429377e1f762') in 0.065367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.629038 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e0c2bad44c8b6560ca9b93c07160d7') in 0.018660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.878665 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs
+  artifactKey: Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Opsive/UltimateCharacterController/Scripts/Objects/CharacterAssist/BulletPickup.cs using Guid(503b61ab17c66c74c94c470b793cebd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6ffb22bc8994be688e6edc5b46b97c18') in 0.032127 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.087110 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2513ms)
+		BeginReloadAssembly (462ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (251ms)
+		EndReloadAssembly (1911ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (792ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (127ms)
+			SetupLoadedEditorAssemblies (606ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (442ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.5 MB.
+System memory in use after: 174.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4567.
+Total: 2.894500 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.240500 ms MarkObjects: 2.201500 ms  DeleteObjects: 0.139400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.046522 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1781ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1462ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (604ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4569.
+Total: 2.535900 ms (FindLiveObjects: 0.308000 ms CreateObjectMapping: 0.220100 ms MarkObjects: 1.984200 ms  DeleteObjects: 0.022500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010183 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1182ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (991ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4571.
+Total: 3.551600 ms (FindLiveObjects: 0.282100 ms CreateObjectMapping: 0.195000 ms MarkObjects: 3.007900 ms  DeleteObjects: 0.065300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009358 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1181ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (996ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4573.
+Total: 2.530600 ms (FindLiveObjects: 0.344200 ms CreateObjectMapping: 0.286600 ms MarkObjects: 1.876300 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014010 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.542 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1543ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1293ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.5 MB.
+System memory in use after: 174.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4575.
+Total: 3.376700 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.226400 ms MarkObjects: 2.820800 ms  DeleteObjects: 0.025100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011134 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HappyDaramPC_3\Documents\GitHub\L2H-test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.550 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1550ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1326ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (457ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (413ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.5 MB.
+System memory in use after: 174.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4577.
+Total: 5.307700 ms (FindLiveObjects: 0.338700 ms CreateObjectMapping: 0.252000 ms MarkObjects: 4.491600 ms  DeleteObjects: 0.223100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
