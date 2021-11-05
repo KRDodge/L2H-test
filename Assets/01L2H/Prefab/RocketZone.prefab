@@ -56,7 +56,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8682391044706500358}
   m_LocalRotation: {x: -0, y: 0.7059457, z: -0, w: 0.7082661}
-  m_LocalPosition: {x: -4.9776306, y: 4.9451246, z: 19.881615}
+  m_LocalPosition: {x: 88.30098, y: 47.538933, z: 527.82385}
   m_LocalScale: {x: 10.051366, y: 3.6889, z: 8.1281}
   m_Children:
   - {fileID: 8682391043158919449}
@@ -88,8 +88,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf6b41c1acef9774ca90cb145c0c96e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_DamageAmount: 20
-  m_rocketDamageInterval: 0.2
+  m_DamageAmount: 5
+  m_rocketDamageInterval: 2
   m_rocketPlayInterval: 3
   m_rocketHitLocation: {fileID: 8682391043158919449}
   m_rocketProjectile: {fileID: 2348986143147364520, guid: 8c6cde8dbb8347aab27e692b0c8d4032, type: 3}

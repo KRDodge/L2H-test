@@ -10,7 +10,7 @@ public class RocketZone : MonoBehaviour
     [Tooltip("The amount of damage to apply during each damage event.")]
     [SerializeField] protected float m_DamageAmount = 20;
     [Tooltip("The interval between damage events.")]
-    [SerializeField] protected float m_rocketDamageInterval = 0.2f;
+    [SerializeField] protected float m_rocketDamageInterval = 2f;
     [Tooltip("The interval between damage events.")]
     [SerializeField] protected float m_rocketPlayInterval = 3f;
     [Tooltip("RocketHitLocation")]

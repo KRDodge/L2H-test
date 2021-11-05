@@ -9,8 +9,6 @@ public class BaseRoomRocketPattern : MonoBehaviour
     [SerializeField] protected RocketZone block3;
 
     private float DeltaTime;
-    private float adder = 0.1f;
-    private bool playParticle;
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +40,6 @@ public class BaseRoomRocketPattern : MonoBehaviour
             block3.PlayParticle();
             DeltaTime += 1;
         }
-        playParticle = false;
         DeltaTime += Time.deltaTime;
     
     }
@@ -67,6 +64,5 @@ public class BaseRoomRocketPattern : MonoBehaviour
         {
             block3.PlayParticle();
         }
-        playParticle = false;
     }
 }

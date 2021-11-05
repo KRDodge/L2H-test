@@ -1,6 +1,5 @@
 using Opsive.UltimateCharacterController.Character;
 using Opsive.Shared.Game;
-using Opsive.Shared.Input;
 using UnityEngine;
 using UnityEngine.UI;
 
