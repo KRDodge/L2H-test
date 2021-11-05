@@ -31,7 +31,6 @@ namespace Opsive.UltimateCharacterController.Editor.Utility
             UnityInputBuilder.AddInputAxis(axisProperty, "Jump", "", "space", "", "", 1000, 0.001f, 1000, false, false, UnityInputBuilder.AxisType.KeyMouseButton, UnityInputBuilder.AxisNumber.X);
             UnityInputBuilder.AddInputAxis(axisProperty, "Mouse X", "", "", "", "", 0, 0, 0.1f, false, false, UnityInputBuilder.AxisType.Mouse, UnityInputBuilder.AxisNumber.X);
             UnityInputBuilder.AddInputAxis(axisProperty, "Mouse Y", "", "", "", "", 0, 0, 0.1f, false, false, UnityInputBuilder.AxisType.Mouse, UnityInputBuilder.AxisNumber.Y);
-            UnityInputBuilder.AddInputAxis(axisProperty, "Mouse ScrollWheel", "", "", "", "", 0, 0, 0.1f, false, false, UnityInputBuilder.AxisType.Mouse, UnityInputBuilder.AxisNumber.Three);
             UnityInputBuilder.AddInputAxis(axisProperty, "Horizontal", "", "", "", "", 1000, 0.19f, 1, false, false, UnityInputBuilder.AxisType.Joystick, UnityInputBuilder.AxisNumber.X);
             UnityInputBuilder.AddInputAxis(axisProperty, "Vertical", "", "", "", "", 1000, 0.19f, 1, false, true, UnityInputBuilder.AxisType.Joystick, UnityInputBuilder.AxisNumber.Y);
             UnityInputBuilder.AddInputAxis(axisProperty, "Fire1", "", "", "", "", 1000, 0.001f, 1000, false, false, UnityInputBuilder.AxisType.Joystick, UnityInputBuilder.AxisNumber.Ten);

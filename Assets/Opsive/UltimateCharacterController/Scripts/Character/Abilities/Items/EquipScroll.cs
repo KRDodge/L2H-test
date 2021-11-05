@@ -56,7 +56,7 @@ namespace Opsive.UltimateCharacterController.Character.Abilities.Items
 
             m_ScrollItemSetIndex = m_ItemSetManager.NextActiveItemSetIndex(m_ItemSetCategoryIndex, m_EquipUnequipItemAbility.ActiveItemSetIndex, InputAxisValue > 0);
 
-            return m_ScrollItemSetIndex != -1 && m_ScrollItemSetIndex != m_EquipUnequipItemAbility.ActiveItemSetIndex;
+            return false;
 		}
 
 		/// <summary>
