@@ -72,7 +72,6 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
@@ -138,7 +137,7 @@ GameObject:
   - component: {fileID: 8337240761999403970}
   - component: {fileID: 8337240760627479710}
   - component: {fileID: 8337240760627479704}
-  - component: {fileID: 8337240760627479705}
+  - component: {fileID: 3848177285740980703}
   - component: {fileID: 8337240760627479781}
   - component: {fileID: 8337240760627479706}
   - component: {fileID: 8337240760627479707}
@@ -193,7 +192,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8337240761992009730}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 500
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
@@ -214,8 +213,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!135 &8337240760627479705
-SphereCollider:
+--- !u!65 &3848177285740980703
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -225,7 +224,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 15
+  m_Size: {x: 30, y: 10, z: 30}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8337240760627479781
 MonoBehaviour:
