@@ -1307,7 +1307,7 @@ MonoBehaviour:
     m_Preset: {fileID: 0}
     m_BlockList: []
     m_Default: 1
-  m_ItemDefinition: {fileID: 48086115716343550, guid: 369d730b02209e6489e859b38994348e, type: 2}
+  m_ItemDefinition: {fileID: 0}
   m_SlotID: 0
   m_AnimatorItemID: 22
   m_AnimatorMovementSetID: 1
@@ -3755,7 +3755,7 @@ MonoBehaviour:
         m_BlockList: []
         m_Default: 1
       m_Slots:
-      - {fileID: 2702002043218377046, guid: 369d730b02209e6489e859b38994348e, type: 2}
+      - {fileID: 0}
       - {fileID: 0}
       m_State: 
       m_Enabled: 1
@@ -3767,13 +3767,13 @@ MonoBehaviour:
         m_BlockList: []
         m_Default: 1
       m_Slots:
-      - {fileID: 48086115716343550, guid: 369d730b02209e6489e859b38994348e, type: 2}
+      - {fileID: 0}
       - {fileID: 0}
       m_State: 
       m_Enabled: 1
       m_CanSwitchTo: 1
       m_DisabledIndex: -1
-  m_ItemCollection: {fileID: 11400000, guid: 369d730b02209e6489e859b38994348e, type: 2}
+  m_ItemCollection: {fileID: 0}
 --- !u!114 &1456349216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3811,11 +3811,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_DefaultLoadout:
-  - ItemDefinition: {fileID: 2702002043218377046, guid: 369d730b02209e6489e859b38994348e, type: 2}
+  - ItemDefinition: {fileID: 0}
     Amount: 1
   - ItemDefinition: {fileID: 114399628520483710, guid: 5481010ef14c32f4cb7b6661b0c59fb4, type: 2}
     Amount: 100
-  - ItemDefinition: {fileID: 48086115716343550, guid: 369d730b02209e6489e859b38994348e, type: 2}
+  - ItemDefinition: {fileID: 0}
     Amount: 2
 --- !u!114 &1456349217
 MonoBehaviour:
@@ -5219,7 +5219,7 @@ MonoBehaviour:
     m_Preset: {fileID: 0}
     m_BlockList: []
     m_Default: 1
-  m_ItemDefinition: {fileID: 2702002043218377046, guid: 369d730b02209e6489e859b38994348e, type: 2}
+  m_ItemDefinition: {fileID: 0}
   m_SlotID: 0
   m_AnimatorItemID: 1
   m_AnimatorMovementSetID: 0
