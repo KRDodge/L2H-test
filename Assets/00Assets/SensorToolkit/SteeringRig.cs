@@ -191,7 +191,7 @@ namespace SensorToolkit
         void Update()
         {
             // Seek routine for kinematic rigid bodies
-            if (RB == null || !RB.isKinematic) return;
+            if (RB == null) return;
 
             // If we have been assigned a direction to face, then turn to face it even if we aren't currently seeking
             if (IsDirectionToFaceAssigned) FaceDirectionKinematic(DirectionToFace);
@@ -226,7 +226,7 @@ namespace SensorToolkit
         void FixedUpdate()
         {
             // Only seek with forces if we are seeking and we have a non-kinematic rigid body
-            if (RB == null || RB.isKinematic) return;
+            if (RB == null) return;
 
             // If we have been assigned a direction to face, then turn to face it even if we aren't currently seeking
             if (IsDirectionToFaceAssigned) FaceDirectionForces(DirectionToFace);

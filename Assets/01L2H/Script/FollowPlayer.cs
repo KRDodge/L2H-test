@@ -11,6 +11,7 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
     using Opsive.UltimateCharacterController.SurfaceSystem;
     using Opsive.UltimateCharacterController.Traits;
     using Opsive.UltimateCharacterController.Utility;
+    using SensorToolkit;
 
 
     public class FollowPlayer : MonoBehaviour
@@ -69,8 +70,12 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         private Transform m_Target;
         private Health m_Health;
         private float m_LastFireTime;
+        private UltimateCharacterLocomotion characterLocomotion;
 
-		private void Awake()
+        [SerializeField] protected TriggerSensor raySensor;
+        [SerializeField] protected SteeringRig steerRig;
+
+        private void Awake()
 		{
             m_GameObject = gameObject;
             m_Transform = transform;
@@ -93,17 +98,27 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         // Update is called once per frame
         void Update()
         {
-            if (m_Target == null)
-            {
-                return;
-            }
+            //if (m_Target == null)
+            //{
+            //    return;
+            //}
 
-            bool isAttack = CheckForAttack();
+            //bool isAttack = CheckForAttack();
 
-            if (!isAttack)
+            //if (!isAttack)
+            //{
+            //    if (playerDetected())
+            //    {
+            //        MoveTowardsTarget();
+            //        RotateTowardsTarget();
+            //    }     
+            //}
+
+            var character = playerDetected();
+            if(character != null)
             {
-                MoveTowardsTarget();
-                RotateTowardsTarget();
+                steerRig.DestinationTransform = character.transform;
+                CheckForAttack();
             }
         }
 
@@ -200,7 +215,7 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
                 return;
             }
 
-            var characterLocomotion = other.GetComponentInParent<UltimateCharacterLocomotion>();
+            characterLocomotion = other.GetComponentInParent<UltimateCharacterLocomotion>();
             if (characterLocomotion == null)
             {
                 return;
@@ -220,5 +235,19 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
             m_Target = null;
         }
 
-    }
+
+		private UltimateCharacterLocomotion playerDetected()
+		{
+			var detected = raySensor.GetDetected();
+			for (int i = detected.Count - 1; i >= 0; i--)
+			{
+				var detectedCharacter = detected[i].GetComponentInParent<UltimateCharacterLocomotion>();
+				if (detectedCharacter != null)
+				{
+					return detectedCharacter;
+				}
+			}
+			return null;
+		}
+	}
 }
