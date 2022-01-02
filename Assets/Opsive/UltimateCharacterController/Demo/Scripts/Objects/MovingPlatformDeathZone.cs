@@ -1,11 +1,4 @@
-﻿/// ---------------------------------------------
-/// Ultimate Character Controller
-/// Copyright (c) Opsive. All Rights Reserved.
-/// https://www.opsive.com
-/// ---------------------------------------------
-
-namespace Opsive.UltimateCharacterController.Demo.Objects
-{
+﻿
     using Opsive.UltimateCharacterController.Traits;
     using UnityEngine;
 
@@ -23,8 +16,6 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         /// </summary>
         private void Awake()
         {
-            m_Transform = transform;
-            m_PrevPosition = m_Transform.position;
         }
 
         /// <summary>
@@ -32,24 +23,28 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         /// </summary>
         private void FixedUpdate()
         {
-            var position = m_Transform.position;
-            m_DownwardMovement = m_Transform.InverseTransformDirection(position - m_PrevPosition).y < 0;
-            m_PrevPosition = position;
         }
 
         /// <summary>
         /// An
         /// </summary>
         /// <param name="other"></param>
-        private void OnTriggerEnter(Collider other)
+        /// 
+        private void OnCollisionEnter(Collision collision)
         {
-            // The platform has to be moving downward in order to kill the player.
-            if (!m_DownwardMovement) {
+            var health = collision.collider.GetComponent<CharacterHealth>();
+            if (health == null)
+            {
                 return;
             }
 
+            var position = m_Transform.position;
+            health.ImmediateDeath(position, Vector3.down, (position - m_PrevPosition).magnitude);
+        }
+        private void Onclo(Collider other)
+        {
             // Kill the character.
-            var health = other.GetComponentInParent<CharacterHealth>();
+            var health = other.GetComponent<CharacterHealth>();
             if (health == null) {
                 return;
             }
@@ -58,4 +53,3 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
             health.ImmediateDeath(position, Vector3.down, (position - m_PrevPosition).magnitude);
         }
     }
-}
