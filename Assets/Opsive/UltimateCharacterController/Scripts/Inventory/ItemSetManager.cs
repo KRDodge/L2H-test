@@ -7,6 +7,7 @@
 namespace Opsive.UltimateCharacterController.Inventory
 {
     using Opsive.Shared.Inventory;
+    using Opsive.UltimateCharacterController.Character.Abilities.Items;
     using UnityEngine;
     using System.Collections.Generic;
 
@@ -17,6 +18,7 @@ namespace Opsive.UltimateCharacterController.Inventory
     {
         [Tooltip("A reference to the ItemCollection that the inventory is using.")]
         [SerializeField] protected ItemCollection m_ItemCollection;
+        private EquipUnequip[] m_EquipUnequipAbilities;
 
         public ItemCollection ItemCollection { get { return m_ItemCollection; } set { var prevItemCollection = m_ItemCollection; 
                                                                                         m_ItemCollection = value; 
@@ -78,6 +80,36 @@ namespace Opsive.UltimateCharacterController.Inventory
                     m_CategoryItemSets[i].ItemSetList[j].Initialize(gameObject, this, m_CategoryItemSets[i].CategoryID, i, j);
                 }
             }
+        }
+        public virtual void OnClickWeapon(int weaponIndex)
+        {
+            //weaponIndex
+            //0 - AR
+            //1 - Shotgun
+            //2 - Sniper
+            //3 - Pistol
+            //4 - RocketLauncher
+            OnChangeWeaponByUI(weaponIndex);
+        }
+
+        protected void OnChangeWeaponByUI(int weaponIndex)
+        {
+            for (int i = 0; i < m_CategoryItemSets[0].ItemSetList.Count; ++i)
+            {
+                if (m_CategoryItemSets[0].ItemSetList[i].Enabled == true)
+                {
+                    m_CategoryItemSets[0].ItemSetList[i].Enabled = false;
+                    m_CategoryItemSets[0].ItemSetList[i].Active = false;
+                }    
+            }
+            m_CategoryItemSets[0].ItemSetList[weaponIndex].Enabled = true;
+            m_CategoryItemSets[0].ItemSetList[weaponIndex].Active = true;
+
+            //todo 나중에 자동으로 무기 들기 추가
+            //for (int i = 0; i < m_EquipUnequipAbilities.Length; ++i)
+            //{
+            //    m_EquipUnequipAbilities[i].StartEquipUnequip(weaponIndex);
+            //}
         }
     }
 }

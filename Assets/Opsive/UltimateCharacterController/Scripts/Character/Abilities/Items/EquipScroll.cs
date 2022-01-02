@@ -45,28 +45,38 @@ namespace Opsive.UltimateCharacterController.Character.Abilities.Items
         public override bool CanStartAbility()
         {
             // An attribute may prevent the ability from starting.
-            if (!base.CanStartAbility()) {
-                return false;
-            }
+            //if (!base.CanStartAbility()) {
+            //    return false;
+            //}
 
             // Don't scroll items if the scroll wheel value isn't large enough.
-            if (Mathf.Abs(InputAxisValue) < m_ScrollSensitivity) {
-                return false;
-            }
+            //if (Mathf.Abs(InputAxisValue) < m_ScrollSensitivity) {
+            //    return false;
+            //}
 
             m_ScrollItemSetIndex = m_ItemSetManager.NextActiveItemSetIndex(m_ItemSetCategoryIndex, m_EquipUnequipItemAbility.ActiveItemSetIndex, InputAxisValue > 0);
 
-            return m_ScrollItemSetIndex != -1 && m_ScrollItemSetIndex != m_EquipUnequipItemAbility.ActiveItemSetIndex;
-        }
+            return false;
+		}
 
-        /// <summary>
-        /// The ability has started.
-        /// </summary>
-        protected override void AbilityStarted()
+		/// <summary>
+		/// The ability has started.
+		/// </summary>
+		protected override void AbilityStarted()
+		{
+			base.AbilityStarted();
+
+			m_EquipUnequipItemAbility.StartEquipUnequip(m_ScrollItemSetIndex);
+
+			// It is up to the EquipUnequip ability to do the actual equip - stop the current ability.
+			StopAbility();
+		}
+
+        public void AbilityStartedonUI(int itemId)
         {
             base.AbilityStarted();
 
-            m_EquipUnequipItemAbility.StartEquipUnequip(m_ScrollItemSetIndex);
+            m_EquipUnequipItemAbility.StartEquipUnequip(itemId);
 
             // It is up to the EquipUnequip ability to do the actual equip - stop the current ability.
             StopAbility();

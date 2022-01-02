@@ -28,6 +28,8 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         [SerializeField] protected Transform m_TurretHead;
         [Tooltip("The speed at which the head rotates.")]
         [SerializeField] protected float m_RotationSpeed = 5;
+        [Tooltip("Is head in oposite direction")]
+        [SerializeField] protected bool m_IsOposite = false;
 
         [Tooltip("The location that the projectile should be fired.")]
         [SerializeField] protected Transform m_FireLocation;
@@ -50,6 +52,7 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         [SerializeField] protected int m_ImpactForceFrames = 1;
         [Tooltip("The Surface Impact triggered when the weapon hits an object.")]
         [SerializeField] protected SurfaceImpact m_SurfaceImpact;
+        [SerializeField] protected float m_RotatePitch = 5;
 
         [Tooltip("Optionally specify a muzzle flash that should appear when the turret is fired.")]
         [SerializeField] protected GameObject m_MuzzleFlash;
@@ -69,6 +72,7 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         private Transform m_Target;
         private Health m_Health;
         private float m_LastFireTime;
+        private bool inFireRange = false;
 
         /// <summary>
         /// Initialize the default values.
@@ -126,8 +130,18 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         /// </summary>
         public void RotateTowardsTarget()
         {
-            var targetRotation = Quaternion.Euler(0, Quaternion.LookRotation(m_TurretHead.position - m_Target.position).eulerAngles.y, 0);
-            m_TurretHead.rotation = Quaternion.Slerp(m_TurretHead.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
+            if(m_IsOposite == true)
+            {
+                var targetRotation = Quaternion.LookRotation(m_Target.position - m_TurretHead.position);
+                targetRotation *= Quaternion.Euler(m_RotatePitch, 0, 0);
+                m_TurretHead.rotation = Quaternion.Slerp(m_TurretHead.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
+            }
+            else{
+                var targetRotation = Quaternion.LookRotation(m_TurretHead.position - m_Target.position);
+                targetRotation *= Quaternion.Euler(m_RotatePitch, 0, 0);
+                m_TurretHead.rotation = Quaternion.Slerp(m_TurretHead.rotation, targetRotation, m_RotationSpeed * Time.deltaTime);
+            }
+            
         }
 
         /// <summary>
@@ -135,8 +149,8 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         /// </summary>
         public void CheckForAttack()
         {
-            // The turret can attack if it hasn't fired recently and the target is in front of the turret.
-            if (m_LastFireTime + m_FireDelay < Time.time && (m_Transform.position - m_Target.position).magnitude < m_FireRange && (m_Health == null || m_Health.Value > 0)) {
+            // The turret can attack if it hasns't fired recently and the target is in front of the turret.
+            if (m_LastFireTime + m_FireDelay < Time.time && (m_Transform.position - m_Target.position).magnitude < m_FireRange && (m_Health == null || m_Health.Value > 0) && inFireRange) {
                 Fire();
             }
         }
@@ -177,6 +191,7 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         /// <param name="other">The object that entered the trigger.</param>
         private void OnTriggerEnter(Collider other)
         {
+            inFireRange = true;
             if (m_Target != null || !MathUtility.InLayerMask(other.gameObject.layer, 1 << LayerManager.Character)) {
                 return;
             }
@@ -196,6 +211,13 @@ namespace Opsive.UltimateCharacterController.Demo.Objects
         /// <param name="other">The collider that exited the trigger.</param>
         private void OnTriggerExit(Collider other)
         {
+
+            var characterLocomotion = other.GetComponentInParent<UltimateCharacterLocomotion>();
+            if (characterLocomotion != null)
+            {
+                inFireRange = false;
+            }
+
             if (other.gameObject != m_Target.gameObject) {
                 return;
             }

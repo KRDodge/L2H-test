@@ -14,6 +14,8 @@ namespace Opsive.UltimateCharacterController.Inventory
     using Opsive.UltimateCharacterController.Items;
     using Opsive.UltimateCharacterController.Items.Actions;
     using Opsive.UltimateCharacterController.Objects.CharacterAssist;
+    using Opsive.UltimateCharacterController.Character;
+    using Opsive.UltimateCharacterController.Character.Abilities.Items;
 #if ULTIMATE_CHARACTER_CONTROLLER_MULTIPLAYER
     using Opsive.UltimateCharacterController.Networking;
     using Opsive.UltimateCharacterController.Networking.Character;
@@ -67,6 +69,8 @@ namespace Opsive.UltimateCharacterController.Inventory
         protected int m_SlotCount = 1;
         protected List<Item> m_AllItems = new List<Item>();
         protected List<IItemIdentifier> m_AllItemIdentifiers = new List<IItemIdentifier>();
+
+        protected EquipScroll m_equipScroll;
 
         public int SlotCount { get {
 #if UNITY_EDITOR
@@ -365,6 +369,12 @@ namespace Opsive.UltimateCharacterController.Inventory
                     StateManager.SetState(m_GameObject, m_UnequippedStateName, false);
                 }
             }
+        }
+
+        public void EquipItem(int itemId)
+        {
+            m_equipScroll = m_GameObject.GetCachedComponent<UltimateCharacterLocomotion>().GetAbility<EquipScroll>();
+            m_equipScroll.AbilityStartedonUI(itemId);
         }
 
         /// <summary>

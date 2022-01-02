@@ -1,4 +1,11 @@
-﻿
+﻿/// ---------------------------------------------
+/// Ultimate Character Controller
+/// Copyright (c) Opsive. All Rights Reserved.
+/// https://www.opsive.com
+/// ---------------------------------------------
+
+namespace Opsive.UltimateCharacterController.Demo.Objects
+{
     using Opsive.UltimateCharacterController.Traits;
     using UnityEngine;
 
@@ -9,13 +16,14 @@
     {
         private Transform m_Transform;
         private Vector3 m_PrevPosition;
-        private bool m_DownwardMovement;
 
         /// <summary>
         /// Initialize the default values.
         /// </summary>
         private void Awake()
         {
+            m_Transform = transform;
+            m_PrevPosition = m_Transform.position;
         }
 
         /// <summary>
@@ -23,28 +31,18 @@
         /// </summary>
         private void FixedUpdate()
         {
+            var position = m_Transform.position;
+            m_PrevPosition = position;
         }
 
         /// <summary>
         /// An
         /// </summary>
         /// <param name="other"></param>
-        /// 
-        private void OnCollisionEnter(Collision collision)
-        {
-            var health = collision.collider.GetComponent<CharacterHealth>();
-            if (health == null)
-            {
-                return;
-            }
-
-            var position = m_Transform.position;
-            health.ImmediateDeath(position, Vector3.down, (position - m_PrevPosition).magnitude);
-        }
-        private void Onclo(Collider other)
+        private void OnTriggerEnter(Collider other)
         {
             // Kill the character.
-            var health = other.GetComponent<CharacterHealth>();
+            var health = other.GetComponentInParent<CharacterHealth>();
             if (health == null) {
                 return;
             }
@@ -53,3 +51,4 @@
             health.ImmediateDeath(position, Vector3.down, (position - m_PrevPosition).magnitude);
         }
     }
+}
